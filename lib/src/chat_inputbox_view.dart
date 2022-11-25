@@ -175,7 +175,7 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
   Widget _buildMsgInputField({required BuildContext context}) => Column(
         children: [
           Container(
-            padding: EdgeInsets.symmetric(vertical: 12.h),
+            padding: EdgeInsets.only(top: 5,bottom: 5,left: 12,right: 12),
             decoration: BoxDecoration(
               color: widget.background ?? Color(0xFFE8F2FF),
               boxShadow: [
