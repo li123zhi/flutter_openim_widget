@@ -182,7 +182,7 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
                 BoxShadow(
                   color: Color(0xFF000000).withOpacity(0.12),
                   offset: Offset(0, -1),
-                  blurRadius: 4,
+                  blurRadius: 14,
                   spreadRadius: 0,
                 ),
               ],
