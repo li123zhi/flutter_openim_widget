@@ -117,7 +117,7 @@ class ChatItemView extends StatefulWidget {
   final List<MenuInfo>? menus;
 
   /// 菜单样式
-  final MenuStyle? menuStyle;
+  final MenuStyleChat? menuStyle;
 
   ///
   final EdgeInsetsGeometry? padding;
@@ -718,7 +718,7 @@ class _ChatItemViewState extends State<ChatItemView> {
         controller: _popupCtrl,
         menus: widget.menus ?? _menusItem(),
         menuStyle: widget.menuStyle ??
-            MenuStyle(
+            MenuStyleChat(
               crossAxisCount: 4,
               mainAxisSpacing: 13.w,
               crossAxisSpacing: 12.h,
